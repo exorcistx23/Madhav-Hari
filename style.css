@@ -1,0 +1,23 @@
+body {
+  background-color: burlywood;
+}
+#para1 {
+  text-align: center;
+  color: crimson;
+}
+.centre {
+  text-align: left;
+  color: floralwhite;
+}
+h1 {
+  color: crimson;
+  text-align: center;
+}
+h2 {
+  color: blue;
+  text-align: center;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  color: grey;
+}
