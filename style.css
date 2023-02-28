@@ -1,23 +1,37 @@
 body {
-  background-color: burlywood;
+  background-color:white;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
-#para1 {
-  text-align: center;
-  color: crimson;
+*{
+  margin: 0;
+  padding:0 ;
 }
-.centre {
-  text-align: left;
-  color: floralwhite;
+header,footer{
+  display: flex;
+  background-color: white;
+  width: 100%;
+  color: black;
 }
-h1 {
-  color: crimson;
-  text-align: center;
+header h2{
+
+  margin-top: 20px;
+  width:100vw;
 }
-h2 {
-  color: blue;
-  text-align: center;
+header{
+ display: flex;
+ justify-content:"space-between";
+ align-items:"center";
 }
-p {
-  font-family: "Times New Roman", Times, serif;
-  color: grey;
+footer{
+  height: auto;
+  bottom: auto;
+}
+.nav{
+  
+}
+.nav a{
+  position: relative;
+  top: auto;
+  color:black;
+  text-decoration:none ;
 }
