@@ -45,22 +45,42 @@
     </div>
   </nav>
   <div class="contact-in">
-    <div class="contact-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.78022225594!2d80.06892952160429!3d13.047822262529785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1678280663824!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248755.78022225594!2d80.06892952160429!3d13.047822262529785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1678280663824!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="col">
+          <form>
+            <div class="contact-form">
+              <label for="formGroupExampleInput">Name</label>
+              <input type="text" class="contact-form-txt" id="formGroupExampleInput" >
+            </div>
+            <div class="contact-form">
+              <label for="formGroupExampleInput2">E-Mail</label>
+              <input type="text" class="contact-form-txt" id="formGroupExampleInput2" >
+            </div>
+            <div class="contact-form">
+              <label for="formGroupExampleInput">Phone Number</label>
+              <input type="text" class="contact-form-txt" id="formGroupExampleInput" >
+            </div>
+            <div class="contact-form">
+              <label for="formGroupExampleInput">Country Preffered</label>
+              <input type="text" class="contact-form-txt" id="formGroupExampleInput" >
+            </div>
+            <div class="contact-form">
+              <label for="formGroupExampleInput">Enquiry</label>
+              <input type="text" class="contact-form-textarea" id="formGroupExampleInput" >
+              <input type="submit" name="SUBMIT" class="contact-form-btn" />
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-    <div class="contact-form">
-      <h1>Contact Us</h1>
-      <form class="container">
-        <input type="text" placeholder="Name" class="contact-form-txt" />
-        <input type="text" placeholder="Email" class="contact-form-txt" />
-        <input type="number" placeholder="Phone Number" class="contact-form-txt" />
-        <input type="text" placeholder="Country Preffered" class="contact-form-txt" />
-        <textarea placeholder="Enquiry" class="contact-form-textarea"></textarea>
-        <input type="submit" name="SUBMIT" class="contact-form-btn" />
-      </form>
-    </div> 
-  </div>
-
+    
+    
    <footer>
     <div class="container">
       <div class="row">
@@ -87,7 +107,7 @@
           <form>
             <input type="text"placeholder="NAME">
             <input type="text"placeholder="PHONE NUMBER">
-            <button type="submit">SUBMIT</button>
+            <input type="submit" name="SUBMIT" class="contact-form-btn" />
           </form>
         </div>
       </div>
